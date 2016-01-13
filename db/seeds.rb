@@ -20,3 +20,6 @@ Refinery::Search::Engine.load_seed
 
 # Added by Refinery CMS Teams extension
 Refinery::Teams::Engine.load_seed
+
+# Added by Refinery CMS News engine
+Refinery::News::Engine.load_seed
