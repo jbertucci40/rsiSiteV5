@@ -10,6 +10,20 @@ GIT
       refinerycms-images (~> 3.0.0)
 
 GIT
+  remote: git://github.com/bisscomm/refinerycms-jobs.git
+  revision: 3b787b7fe99a4ea95b8ac93e0e678048b92e93a8
+  branch: master
+  specs:
+    refinerycms-jobs (3.0.0)
+      acts_as_indexed (~> 0.8.0)
+      dragonfly (~> 1.0.7)
+      filters_spam (~> 0.2)
+      friendly_id-globalize
+      globalize (>= 4.0.0, < 5.2)
+      refinerycms-core (~> 3.0.0)
+      refinerycms-settings (~> 3.0.0)
+
+GIT
   remote: git://github.com/bisscomm/refinerycms-teams.git
   revision: 9b75d4c8b5a98b9b0d29dca09a1e74cbfb150756
   branch: master
@@ -401,6 +415,7 @@ DEPENDENCIES
   refinerycms-copywriting!
   refinerycms-image_slideshows!
   refinerycms-inquiries!
+  refinerycms-jobs!
   refinerycms-news!
   refinerycms-page-images!
   refinerycms-page-resources!

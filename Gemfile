@@ -80,6 +80,9 @@ gem 'refinerycms-page-resources', git: 'https://github.com/anitagraham/refineryc
 # Add Image plugin
 gem 'refinerycms-page-images', git: 'https://github.com/refinery/refinerycms-page-images.git', branch: 'master'
 
+# Add Jobs plugin
+gem 'refinerycms-jobs', github: 'bisscomm/refinerycms-jobs', branch: 'master'
+
 # Add support for searching inside Refinery's admin interface.
 gem 'refinerycms-acts-as-indexed', ['~> 2.0', '>= 2.0.0']
 
