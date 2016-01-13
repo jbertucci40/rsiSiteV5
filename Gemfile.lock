@@ -32,6 +32,14 @@ GIT
       refinerycms-core (~> 3.0.0)
 
 GIT
+  remote: https://github.com/anitagraham/refinerycms-page-resources.git
+  revision: 43bad970420d8c07a43421221cf1beb0a7ef58b8
+  branch: master
+  specs:
+    refinerycms-page-resources (0.0.2)
+      refinerycms-pages (~> 3.0.0)
+
+GIT
   remote: https://github.com/refinery/refinerycms
   revision: d91d3fe9ac2d5f9e4142ca6e4c3e030bbb9f1362
   branch: master
@@ -384,6 +392,7 @@ DEPENDENCIES
   refinerycms-image_slideshows!
   refinerycms-inquiries!
   refinerycms-news!
+  refinerycms-page-resources!
   refinerycms-search!
   refinerycms-teams!
   refinerycms-wymeditor (~> 1.0, >= 1.0.6)

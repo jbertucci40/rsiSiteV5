@@ -74,6 +74,9 @@ gem 'refinerycms-copywriting', git: 'https://github.com/unixcharles/refinerycms-
 # Add image slideshow plugin
 gem 'refinerycms-image_slideshows', github: 'bisscomm/refinerycms-image-slideshows', branch: 'master'
 
+# Add resource plugin
+gem 'refinerycms-page-resources', git: 'https://github.com/anitagraham/refinerycms-page-resources.git', branch: 'master'
+
 # Add support for searching inside Refinery's admin interface.
 gem 'refinerycms-acts-as-indexed', ['~> 2.0', '>= 2.0.0']
 
