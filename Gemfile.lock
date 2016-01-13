@@ -101,6 +101,16 @@ GIT
       refinerycms-core (~> 3.0.0)
       refinerycms-settings (~> 3.0.0)
 
+GIT
+  remote: https://github.com/unixcharles/refinerycms-copywriting.git
+  revision: 2ae654f57bd50a7f1a4f7c71a77ed310d3e6dacb
+  branch: master
+  specs:
+    refinerycms-copywriting (3.0.0)
+      decorators (~> 2.0.0)
+      globalize (~> 5.0)
+      refinerycms-core (~> 3.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -359,6 +369,7 @@ DEPENDENCIES
   refinerycms-acts-as-indexed (~> 2.0, >= 2.0.0)
   refinerycms-authentication-devise (~> 1.0)
   refinerycms-blog!
+  refinerycms-copywriting!
   refinerycms-inquiries!
   refinerycms-news!
   refinerycms-search!

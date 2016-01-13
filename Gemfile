@@ -68,6 +68,9 @@ gem 'refinerycms-teams', github: 'bisscomm/refinerycms-teams', branch: 'master'
 # Add news plugin
 gem "refinerycms-news", git: 'https://github.com/refinery/refinerycms-news.git', branch: 'master'
 
+# Add copywrite plugin
+gem 'refinerycms-copywriting', git: 'https://github.com/unixcharles/refinerycms-copywriting.git', branch: 'master'
+
 # Add support for searching inside Refinery's admin interface.
 gem 'refinerycms-acts-as-indexed', ['~> 2.0', '>= 2.0.0']
 
