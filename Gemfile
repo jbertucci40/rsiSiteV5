@@ -56,6 +56,9 @@ gem 'quiet_assets', group: :development
 # Add blog plugin
 gem 'refinerycms-blog', git: 'https://github.com/refinery/refinerycms-blog', branch: 'master'
 
+# Add inquiry plugin
+gem 'refinerycms-inquiries', git: 'https://github.com/refinery/refinerycms-inquiries.git', branch: 'master'
+
 # Add support for searching inside Refinery's admin interface.
 gem 'refinerycms-acts-as-indexed', ['~> 2.0', '>= 2.0.0']
 
