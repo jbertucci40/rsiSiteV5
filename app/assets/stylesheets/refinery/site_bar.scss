@@ -56,6 +56,25 @@
         left: -1000em;
       }
     }
+	
+    #site_bar_rsi_cms_logo {
+      background: image_url('rsi_logo.png') no-repeat 0 100%;
+      display: none;
+      height: 29px;
+      overflow: hidden;
+      margin-top: -2px;
+      position: relative;
+      width: 96px;
+
+      @media screen and (min-width: 58em) {
+        display: block;
+      }
+
+      span {
+        position: absolute;
+        left: -1000em;
+      }
+    }
 
     #site_bar_branding, #editor_switch {
       display: block;
@@ -117,7 +136,7 @@
         width: 38%;
       }
 
-      #site_bar_refinery_cms_logo {
+      #site_bar_refinery_rsi_logo {
         float: left;
         width: 12%;
       }
