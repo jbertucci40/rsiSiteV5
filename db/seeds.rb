@@ -17,3 +17,6 @@ Refinery::Inquiries::Engine.load_seed
 
 # Added by Refinery CMS Search engine
 Refinery::Search::Engine.load_seed
+
+# Added by Refinery CMS Teams extension
+Refinery::Teams::Engine.load_seed

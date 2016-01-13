@@ -1,4 +1,17 @@
 GIT
+  remote: git://github.com/bisscomm/refinerycms-teams.git
+  revision: 9b75d4c8b5a98b9b0d29dca09a1e74cbfb150756
+  branch: master
+  specs:
+    refinerycms-teams (3.0.0)
+      actionview-encoded_mail_to (~> 1.0.5)
+      acts_as_indexed (~> 0.8.0)
+      friendly_id (~> 5.1.0)
+      friendly_id-globalize (>= 1.0.0.alpha2)
+      globalize (>= 4.0.0, < 5.2)
+      refinerycms-core (~> 3.0.0)
+
+GIT
   remote: git://github.com/refinery/refinerycms-search.git
   revision: aa8098cd0c159b72174daa1e8195dd797773d948
   branch: master
@@ -98,6 +111,8 @@ GEM
       erubis (~> 2.7.0)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    actionview-encoded_mail_to (1.0.7)
+      rails
     activejob (4.2.4)
       activesupport (= 4.2.4)
       globalid (>= 0.3.0)
@@ -170,6 +185,8 @@ GEM
     filters_spam (0.5)
     friendly_id (5.1.0)
       activerecord (>= 4.0.0)
+    friendly_id-globalize (1.0.0.alpha2)
+      friendly_id (~> 5.1.0, < 6.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     globalize (5.0.1)
@@ -332,6 +349,7 @@ DEPENDENCIES
   refinerycms-blog!
   refinerycms-inquiries!
   refinerycms-search!
+  refinerycms-teams!
   refinerycms-wymeditor (~> 1.0, >= 1.0.6)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
