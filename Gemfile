@@ -45,6 +45,9 @@ group :development do
   gem 'spring'
 end
 
+#engineyard commandline gem
+gem 'engineyard'
+
 
 gem 'refinerycms', git: 'https://github.com/refinery/refinerycms', branch: 'master'
 
