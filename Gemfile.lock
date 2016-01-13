@@ -121,6 +121,16 @@ GIT
       refinerycms-settings (~> 3.0.0)
 
 GIT
+  remote: https://github.com/refinery/refinerycms-page-images.git
+  revision: 9b5f16e8266cb3c823c4d310ec3e733245258dde
+  branch: master
+  specs:
+    refinerycms-page-images (3.0.0)
+      decorators (~> 2.0.0)
+      globalize (~> 5.0)
+      refinerycms-pages (~> 3.0.0)
+
+GIT
   remote: https://github.com/unixcharles/refinerycms-copywriting.git
   revision: 2ae654f57bd50a7f1a4f7c71a77ed310d3e6dacb
   branch: master
@@ -392,6 +402,7 @@ DEPENDENCIES
   refinerycms-image_slideshows!
   refinerycms-inquiries!
   refinerycms-news!
+  refinerycms-page-images!
   refinerycms-page-resources!
   refinerycms-search!
   refinerycms-teams!

@@ -48,10 +48,10 @@ end
 #engineyard commandline gem
 gem 'engineyard'
 
-
 gem 'refinerycms', git: 'https://github.com/refinery/refinerycms', branch: 'master'
 
 gem 'quiet_assets', group: :development
+
 
 # Add blog plugin
 gem 'refinerycms-blog', git: 'https://github.com/refinery/refinerycms-blog', branch: 'master'
@@ -76,6 +76,9 @@ gem 'refinerycms-image_slideshows', github: 'bisscomm/refinerycms-image-slidesho
 
 # Add resource plugin
 gem 'refinerycms-page-resources', git: 'https://github.com/anitagraham/refinerycms-page-resources.git', branch: 'master'
+
+# Add Image plugin
+gem 'refinerycms-page-images', git: 'https://github.com/refinery/refinerycms-page-images.git', branch: 'master'
 
 # Add support for searching inside Refinery's admin interface.
 gem 'refinerycms-acts-as-indexed', ['~> 2.0', '>= 2.0.0']
