@@ -59,6 +59,9 @@ gem 'refinerycms-blog', git: 'https://github.com/refinery/refinerycms-blog', bra
 # Add inquiry plugin
 gem 'refinerycms-inquiries', git: 'https://github.com/refinery/refinerycms-inquiries.git', branch: 'master'
 
+# Add advanced search plugin
+gem 'refinerycms-search', github: 'refinery/refinerycms-search', branch: 'master'
+
 # Add support for searching inside Refinery's admin interface.
 gem 'refinerycms-acts-as-indexed', ['~> 2.0', '>= 2.0.0']
 

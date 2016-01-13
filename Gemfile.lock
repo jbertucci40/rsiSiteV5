@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/refinery/refinerycms-search.git
+  revision: aa8098cd0c159b72174daa1e8195dd797773d948
+  branch: master
+  specs:
+    refinerycms-search (3.0.0)
+      refinerycms-acts-as-indexed (~> 2.0.1)
+      refinerycms-core (~> 3.0.0)
+
+GIT
   remote: https://github.com/refinery/refinerycms
   revision: d91d3fe9ac2d5f9e4142ca6e4c3e030bbb9f1362
   branch: master
@@ -322,6 +331,7 @@ DEPENDENCIES
   refinerycms-authentication-devise (~> 1.0)
   refinerycms-blog!
   refinerycms-inquiries!
+  refinerycms-search!
   refinerycms-wymeditor (~> 1.0, >= 1.0.6)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
