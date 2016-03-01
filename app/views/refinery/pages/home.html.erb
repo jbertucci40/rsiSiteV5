@@ -1,4 +1,4 @@
 <%#<%= render '/refinery/content_page' %>
+<% content for :stylesheets, stylesheet_link_tag('home') %>
 <% @items = Refinery::News::Item.latest(5) %>
 <%= render :partial => '/refinery/news/items/recent_posts' %>
-<div class="image_div" style="background: RSI_Background_01.jpg;" />
