@@ -1,6 +1,9 @@
 header {
 	background-color: rgb(101,26,38);
-	background-image: url(header_logo.jpg) no-repeat;
+	background-image: url(header_logo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 	
 	
 	/*ul {
