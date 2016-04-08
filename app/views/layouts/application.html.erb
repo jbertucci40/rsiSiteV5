@@ -3,10 +3,10 @@
   <% site_bar = render('/refinery/site_bar', :head => true) -%>
   <head>
     <%= render "/refinery/head" %>
+    <header id="header">
+      <%= render "/refinery/header" -%>
+    </header>
   </head>
-  <header id="header">
-    <%= render "/refinery/header" -%>
-  </header>
   <body id="<%= canonical_id @page %>">
     <%= site_bar -%>
     <div id="page_container">
